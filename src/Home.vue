@@ -37,6 +37,7 @@
         </p>
       </div>
     </div>
+    <div class='carousel-box'></div>
     <div class="white-space"></div>
   </div>
 </template>
@@ -165,6 +166,25 @@ $black: rgb(0, 0, 0);
       border-bottom: 1px solid black;
   }
 }
+
+.carousel-box {
+  background-image: url('./assets/banner.jpg');
+  background-size: cover;
+  margin-top: 1.5rem;
+  width: 95%;
+  height: 75vh;
+  animation: slide 9s infinite;
+}
+
+@keyframes slide {
+  0% { background-image: url('./assets/banner.jpg')}
+  35% { background-image: url('./assets/banner.jpg')}
+  75% { background-image: url('./assets/banner2.jpg')}
+  85% { background-image: url('./assets/banner2.jpg')}
+  95% { background-image: url('./assets/banner2.jpg')}
+}
+
+
 
 .nordstrom img, .search-signup, .search, .lock, .link-header a, .banner:hover {
     cursor: pointer;
