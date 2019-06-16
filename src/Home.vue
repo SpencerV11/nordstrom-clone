@@ -110,7 +110,7 @@ $black: rgb(0, 0, 0);
   }
 
   .icon {
-    color: black;
+    color: $black;
   }
 }
 
@@ -150,7 +150,7 @@ $black: rgb(0, 0, 0);
   .banner {
     width: 100%;
     height: 25vh;
-    background: black;
+    background: $black;
   }
 
   .get-a-bonus {
@@ -163,7 +163,7 @@ $black: rgb(0, 0, 0);
   }
 
   span {
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid $black;
   }
 }
 
@@ -192,6 +192,6 @@ $black: rgb(0, 0, 0);
 
 .limited-time span:hover {
     cursor: pointer;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid $black
 }
 </style>
